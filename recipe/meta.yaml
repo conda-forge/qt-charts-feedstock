@@ -9,7 +9,7 @@ source:
   md5: fe0b596186383d22f456b9aed41b5a53
 
 build:
-  number: 2
+  number: 3
   detect_binary_files_with_prefix: true
   run_exports:
     - {{ pin_subpackage('qt6-charts', max_pin='x.x') }}
