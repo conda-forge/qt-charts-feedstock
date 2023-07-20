@@ -1,4 +1,4 @@
-{% set version = "6.5.1" %}
+{% set version = "6.5.2" %}
 
 package:
   name: qt6-charts
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://download.qt.io/official_releases/qt/{{ version.rpartition('.')[0] }}/{{ version }}/submodules/qtcharts-everywhere-src-{{ version }}.tar.xz
-  md5: 4db81695e99eb03bb04400b5ae86dbaf
+  md5: b867118c1edcf375c50e36f22d9c3bc0
 
 build:
   number: 0
