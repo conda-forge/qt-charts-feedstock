@@ -11,6 +11,6 @@ if errorlevel 1 exit 1
 cmake --build build --target install --config Release
 if errorlevel 1 exit 1
 
-:: we set INSTALL_BINDIR != /bin to avoid clobbering qt5 exes but still dlls in /bin
+:: unversioned exes must avoid clobbering the qt5 packages, but versioned dlls still need to be in PATH
 xcopy /y /s %LIBRARY_PREFIX%\lib\qt6\bin\*.dll %LIBRARY_PREFIX%\bin
 if errorlevel 1 exit 1
