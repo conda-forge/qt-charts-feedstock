@@ -1,4 +1,4 @@
-{% set version = "6.7.1" %}
+{% set version = "6.7.2" %}
 
 package:
   name: qt6-charts
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://download.qt.io/official_releases/qt/{{ version.rpartition('.')[0] }}/{{ version }}/submodules/qtcharts-everywhere-src-{{ version }}.tar.xz
-  md5: aa4d60c7e6796e73bd2d1b752d2bcd2b
+  md5: 076b37b947d8c136a51d309d065505bf
 
 build:
   number: 0
@@ -69,4 +69,3 @@ extra:
   recipe-maintainers:
     - jschueller
   feedstock-name: qt-charts
-
