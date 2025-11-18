@@ -14,6 +14,7 @@ build:
   run_exports:
     - {{ pin_subpackage('qt6-charts', max_pin='x.x') }}
 
+
 requirements:
   build:
     - cmake
