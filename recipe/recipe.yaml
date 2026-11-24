@@ -1,5 +1,5 @@
 context:
-  version: "6.12.0"
+  version: "6.12.1"
   maj_min: ${{ (version | split('.'))[:2] | join('.') }}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.qt.io/official_releases/qt/${{ maj_min }}/${{ version }}/submodules/qtcharts-everywhere-src-${{ version }}.tar.xz
-  md5: 00a25781bdc2c8f89630d4500211696b
+  md5: 65f25da24f69b477731a2856b4076ecd
 
 build:
   number: 0
